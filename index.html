@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Convertor</title>
+</head>
+<body>
+    <div class="container">
+        <form class="currency-convertor">
+            <label for="user-amn">
+                Your Value:
+                <input class="user-amn" type="text" name="user-amn">
+                <select name="user-cry" class="user-cry">
+                    <option value="EUR">EUR</option> 
+                    <option value="USD">USD</option>
+                    <option value="RON">RON</option>
+                    <option value="PLN">PLN</option>
+                    <option value="CAD">CAD</option>
+                    <option value="MDL">MDL</option>
+                    <option value="MXN">MXN</option>
+                    <option value="RUB">RUB</option>
+                    <option value="TRY">TRY</option>
+                    <option value="BTC">BTC</option>
+                </select>
+            </label>
+            <label for="comp-amn">
+                Converted Value:
+                <input class="comp-amn" type="text" name="comp-amn">
+                <select name="comp-cry" class="comp-cry">
+                    <option value="EUR">EUR</option> 
+                    <option value="USD">USD</option>
+                    <option value="RON">RON</option>
+                    <option value="PLN">PLN</option>
+                    <option value="CAD">CAD</option>
+                    <option value="MDL">MDL</option>
+                    <option value="MXN">MXN</option>
+                    <option value="RUB">RUB</option>
+                    <option value="TRY">TRY</option>
+                    <option value="BTC">BTC</option>
+                </select>
+            </label>
+            <button>CONVERT</button>
+        </form>
+        <p>Supported Currencies</p>
+        <p>Euro - EUR, USD - US Dollar, RON - Romanian Lion, PLN - Polish Zloty, CAD - 	Canadian Dollar, MDL - Moldovan Lion, MXN - Mexican Peso, RUB - Russian Ruble, TRY - Turkish New Lira, BTC - Bitcoin</p>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
