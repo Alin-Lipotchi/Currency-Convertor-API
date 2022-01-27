@@ -29,6 +29,11 @@ form button {
     padding: 0.5rem;
 }
 
+.converted-value {
+    text-align: center;
+    opacity: 0;
+}
+
 p {
     text-align: center;
     padding: 1rem;
